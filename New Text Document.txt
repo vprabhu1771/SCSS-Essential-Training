@@ -1,0 +1,45 @@
+npm init --y
+
+Wrote to C:\Users\windows_rig3\Desktop\web\package.json:
+
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+2) Install SASS Globally
+
+npm install -g sass
+
+
+scss
+
+scss -> _variables.scss
+
+scss -> _common.scss
+
+scss -> main.scss
+
+package.json:
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/main.scss css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
