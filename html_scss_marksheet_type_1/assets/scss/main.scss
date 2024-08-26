@@ -1,0 +1,15 @@
+table, th, td {
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 12px;
+    
+}
+
+.total {
+    // border: 2px solid green;
+    color: green;
+}
