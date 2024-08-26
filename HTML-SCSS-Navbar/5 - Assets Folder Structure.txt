@@ -1,0 +1,5 @@
+Create assets Folder -> Under navbar
+
+Create scss Folder -> Under navbar/assets 
+
+Create css Folder -> Under navbar/assets
